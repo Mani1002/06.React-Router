@@ -1,3 +1,5 @@
+import React from "react";
+import background from "./assets/background.png";
 function HomePage() {
   return (
     <main className="grid lg:grid-cols-2 md:grid-cols-2 p-5 gap-5 max-w-6xl mx-auto mt-10">
@@ -19,7 +21,7 @@ function HomePage() {
 
       <div className="flex-1 flex justify-center items-center">
         <img
-          src="./pngtree-female-customers-shopping-online-vector-png-image_5347770-removebg-preview.png"
+          src={background}
           alt="background"
         />
       </div>
